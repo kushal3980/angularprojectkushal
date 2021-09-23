@@ -1,0 +1,56 @@
+<div class="a">
+<ng-container *ngIf="true">
+    <div class="container">
+        <div class="card-table">
+            <div class="card-product">
+                <table class="table table-responsive">
+                    <thead>
+                        <tr>
+                            <th>Sr.No</th>
+                            <th>product name</th>
+                            <th>product image</th>
+                            <th>descripton</th>
+                            <th>price</th>
+                            <th>quantity</th>
+                            <th>total</th>
+                            <th>action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>courtain</td>
+                            <td>some images</td>
+                            <td>branded curtain</td>
+                            <td>5000</td>
+                            <td>1</td>
+                            <td>5000</td>
+                            <td>
+                                <button class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</ng-container>
+<ng-container *ngif="false">
+    <div class="container">
+        <div class="card">
+            <h5 class="card-title">my cart</h5>
+        </div>
+        <div class="center">
+            <img src="" alt="">
+            <h4>your cart is empty!</h4>
+            <h6>add item to it now</h6>
+            <button class="btn btn-primary">Shop now</button>
+        </div>
+    </div>
+</ng-container>
+<br><br><br><br><br><br><br><br>
+<div class="center">
+    <button class="btn btn-primary" routerLink="customise/customise1">Buy</button>
+</div>
+<br><br><br><br><br><br><br><br>
+</div>

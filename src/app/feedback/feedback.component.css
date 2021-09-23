@@ -1,0 +1,22 @@
+input[type=submit] {
+    background-color: #04AA6D;
+    color: black ;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+.vv{
+    color: black;
+}
+  body{
+      background-color:lightblue;   
+    }
+  textarea {
+    width: 400px;
+    height: 150px;
+  }
+
+  .cer{
+      text-align: center;
+  }
